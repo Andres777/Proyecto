@@ -1,0 +1,29 @@
+package Gestion_de_librerias;
+
+import Gestion_Libro.Lista_libros;
+
+public class Librería {
+    public String nombre, pais, ubicacion, telefono, horario;
+    public Lista_libros libros;
+    
+    //Constructores
+    public Librería(String Nombre, String Pais, String Ubicacion, String Telefono, String Horario, Lista_libros lista){
+        nombre = Nombre;
+        pais = Pais;
+        ubicacion = Ubicacion;
+        telefono = Telefono;
+        horario = Horario;
+        libros = lista;
+    }
+    
+    public Librería(){
+        nombre = null;
+        pais = null;
+        ubicacion = null;
+        telefono = null;
+        horario = null;
+        libros = null;
+    
+    }  
+       
+}
